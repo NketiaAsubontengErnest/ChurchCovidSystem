@@ -1,7 +1,7 @@
 ﻿Public Class AdminDashboard
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        MemberForm.Show()
+        UserForm.Show()
 
     End Sub
 
