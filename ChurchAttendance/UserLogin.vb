@@ -3,7 +3,7 @@
     Private Sub UserLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-    
+
     Private Sub Label1_Click(sender As Object, e As EventArgs)
         Me.Hide()
         adminLoginForm.Show()
@@ -55,6 +55,6 @@
             txtPassword.Focus()
 
         End If
-        Me.Hide()
+        
     End Sub
 End Class
