@@ -14,8 +14,8 @@
             e.KeyChar = ChrW
         End If
     End Sub
-        
-    End Sub
+    
+    
     
 
 End Class
