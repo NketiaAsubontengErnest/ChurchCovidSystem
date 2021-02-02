@@ -23,18 +23,18 @@ Partial Class ReportsForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GeneralReport = New System.Windows.Forms.TabControl()
-        Me.General = New System.Windows.Forms.TabPage()
-        Me.Individual = New System.Windows.Forms.TabPage()
-        Me.Critecal = New System.Windows.Forms.TabPage()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
         Me.btnSearch = New System.Windows.Forms.Button()
         Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.GeneralReport.SuspendLayout()
-        Me.General.SuspendLayout()
-        Me.Individual.SuspendLayout()
-        Me.Critecal.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,49 +43,49 @@ Partial Class ReportsForm
         'GeneralReport
         '
         Me.GeneralReport.AccessibleName = ""
-        Me.GeneralReport.Controls.Add(Me.General)
-        Me.GeneralReport.Controls.Add(Me.Individual)
-        Me.GeneralReport.Controls.Add(Me.Critecal)
+        Me.GeneralReport.Controls.Add(Me.TabPage1)
+        Me.GeneralReport.Controls.Add(Me.TabPage2)
+        Me.GeneralReport.Controls.Add(Me.TabPage3)
         Me.GeneralReport.Location = New System.Drawing.Point(13, 8)
         Me.GeneralReport.Name = "GeneralReport"
         Me.GeneralReport.SelectedIndex = 0
         Me.GeneralReport.Size = New System.Drawing.Size(856, 488)
         Me.GeneralReport.TabIndex = 0
         '
-        'General Report
+        'TabPage1
         '
-        Me.General.Controls.Add(Me.DataGridView1)
-        Me.General.Location = New System.Drawing.Point(4, 22)
-        Me.General.Name = "TabPage1"
-        Me.General.Padding = New System.Windows.Forms.Padding(3)
-        Me.General.Size = New System.Drawing.Size(848, 462)
-        Me.General.TabIndex = 0
-        Me.General.Text = "TabPage1"
-        Me.General.UseVisualStyleBackColor = True
+        Me.TabPage1.Controls.Add(Me.DataGridView1)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(848, 462)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "General"
+        Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'Individual Report
+        'TabPage2
         '
-        Me.Individual.Controls.Add(Me.txtSearch)
-        Me.Individual.Controls.Add(Me.btnSearch)
-        Me.Individual.Controls.Add(Me.DataGridView2)
-        Me.Individual.Location = New System.Drawing.Point(4, 22)
-        Me.Individual.Name = "TabPage2"
-        Me.Individual.Padding = New System.Windows.Forms.Padding(3)
-        Me.Individual.Size = New System.Drawing.Size(848, 462)
-        Me.Individual.TabIndex = 1
-        Me.Individual.Text = "TabPage2"
-        Me.Individual.UseVisualStyleBackColor = True
+        Me.TabPage2.Controls.Add(Me.txtSearch)
+        Me.TabPage2.Controls.Add(Me.btnSearch)
+        Me.TabPage2.Controls.Add(Me.DataGridView2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(848, 462)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Individual"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Critecal Report
+        'TabPage3
         '
-        Me.Critecal.Controls.Add(Me.DataGridView3)
-        Me.Critecal.Location = New System.Drawing.Point(4, 22)
-        Me.Critecal.Name = "TabPage3"
-        Me.Critecal.Padding = New System.Windows.Forms.Padding(3)
-        Me.Critecal.Size = New System.Drawing.Size(848, 462)
-        Me.Critecal.TabIndex = 2
-        Me.Critecal.Text = "TabPage3"
-        Me.Critecal.UseVisualStyleBackColor = True
+        Me.TabPage3.Controls.Add(Me.DataGridView3)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(848, 462)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Cretical"
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
