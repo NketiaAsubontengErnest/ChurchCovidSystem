@@ -84,7 +84,7 @@ Partial Class ReportsForm
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage3.Size = New System.Drawing.Size(848, 462)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Cretical"
+        Me.TabPage3.Text = "Critical"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
         'DataGridView1
