@@ -1,4 +1,9 @@
 ﻿Public Class UserLogin
+
+    Private Sub UserLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+    
     Private Sub Label1_Click(sender As Object, e As EventArgs)
         Me.Hide()
         adminLoginForm.Show()
@@ -26,7 +31,30 @@
        
     End Sub
 
-    Private Sub UserLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+        If txtUsername.Text = "" Then
+            MsgBox("Username field CANNOT be empty", MsgBoxStyle.Critical, "Warning")
+            txtUsername.Clear()
+            txtUsername.Focus()
+        ElseIf txtPassword.Text = "" Then
+            MsgBox("Password field CANNOT be empty", MsgBoxStyle.Critical, "Warning")
+            txtPassword.Clear()
+            txtPassword.Focus()
+        ElseIf txtUsername.Text = "admin" And txtPassword.text = "00000" Then
+            AdminDashboard.Show()
 
+        ElseIf txtUsername.Text = "user" And txtPassword.text = "11111" Then
+            UserDashboard.Show()
+
+        Else
+            MsgBox("Wrong Username or Password", MsgBoxStyle.Critical, "WARNING")
+            txtUsername.Clear()
+            txtPassword.Clear()
+
+            txtUsername.Focus()
+            txtPassword.Focus()
+
+        End If
+        Me.Hide()
     End Sub
 End Class
