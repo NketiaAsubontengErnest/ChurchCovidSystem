@@ -91,6 +91,7 @@
       <DependentUpon>AdminLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="codes\dbManager.vb" />
     <Compile Include="MemberForm.Designer.vb">
       <DependentUpon>MemberForm.vb</DependentUpon>
     </Compile>

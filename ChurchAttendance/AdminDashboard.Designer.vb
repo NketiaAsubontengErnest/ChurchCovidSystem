@@ -36,7 +36,7 @@ Partial Class AdminDashboard
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChurchOptionsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(694, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(710, 24)
         Me.MenuStrip1.TabIndex = 191
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -50,32 +50,32 @@ Partial Class AdminDashboard
         'AddMenberToolStripMenuItem
         '
         Me.AddMenberToolStripMenuItem.Name = "AddMenberToolStripMenuItem"
-        Me.AddMenberToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AddMenberToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.AddMenberToolStripMenuItem.Text = "Add Menber"
         '
         'AddUserToolStripMenuItem
         '
         Me.AddUserToolStripMenuItem.Name = "AddUserToolStripMenuItem"
-        Me.AddUserToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AddUserToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.AddUserToolStripMenuItem.Text = "Add User"
         '
         'AddServiceToolStripMenuItem
         '
         Me.AddServiceToolStripMenuItem.Name = "AddServiceToolStripMenuItem"
-        Me.AddServiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AddServiceToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.AddServiceToolStripMenuItem.Text = "Add Service"
         '
         'ReportToolStripMenuItem
         '
         Me.ReportToolStripMenuItem.Name = "ReportToolStripMenuItem"
-        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.ReportToolStripMenuItem.Text = "Report"
         '
         'AdminDashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(694, 423)
+        Me.ClientSize = New System.Drawing.Size(710, 417)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1

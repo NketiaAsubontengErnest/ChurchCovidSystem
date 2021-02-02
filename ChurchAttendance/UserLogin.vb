@@ -20,10 +20,13 @@
         if Not (Asc(e.KeyChar) = 8) Then
             if Not (Asc(e.KeyChar) >= 97 And Asc(e.KeyChar) <= 122) Or (Asc(e.KeyChar) >= 65 And Asc(e.KeyChar)<90) Then
                 e.KeyChar = ChrW(0)
-                e.Handles = True
+                e.Handled = True
             End if
         End If
        
     End Sub
 
+    Private Sub UserLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

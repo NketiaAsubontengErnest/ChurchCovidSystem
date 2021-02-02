@@ -36,4 +36,8 @@
     Private Sub ReportToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReportToolStripMenuItem.Click
         ReportsForm.Show()
     End Sub
+
+    Private Sub AdminDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
